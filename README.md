@@ -213,11 +213,11 @@ redistribuirlo libremente (también en proyectos comerciales), con una única co
 copyright y el texto de la licencia:
 
 ```text
-Copyright (c) 2026 evilrender23
+Copyright (c) 2026 Oz-X
 ```
 
 Si usas Mod Engine o parte de su código en tu proyecto, incluye un crédito visible, por ejemplo:
-"Basado en Mod Engine de evilrender23 (https://github.com/oz-x)".
+"Basado en Mod Engine de Oz-X (https://github.com/oz-x)".
 
 Los iconos del editor son de [Font Awesome Free](https://fontawesome.com) 6.7.2 (fuentes bajo
 SIL OFL 1.1, ver [`crates/modengine-editor/assets/fonts/LICENSE-FontAwesome.txt`](crates/modengine-editor/assets/fonts/LICENSE-FontAwesome.txt)).
