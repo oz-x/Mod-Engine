@@ -2,11 +2,11 @@
 # Instala o actualiza Mod Engine en Mac o en Linux compilándolo desde una rama del repositorio
 # (master por defecto). Es el equivalente de instalar.ps1.
 #
-#   git clone https://github.com/evilrender23/Mod-Engine
+#   git clone https://github.com/oz-x/Mod-Engine
 #   bash Mod-Engine/instalar.sh [--repo URL|RUTA] [--rama master] [--destino CARPETA] [--bin CARPETA]
 #
 # O en una línea:
-#   curl -fsSL https://raw.githubusercontent.com/evilrender23/Mod-Engine/master/instalar.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/oz-x/Mod-Engine/master/instalar.sh | bash
 #
 # Desde un clon, sin --repo, instala desde el origin de ese clon.
 #
@@ -35,7 +35,7 @@ case "$(uname -s)" in
     *) echo "Este instalador es para Mac y Linux; en Windows, usa instalar.ps1." >&2; exit 2 ;;
 esac
 
-REPO='https://github.com/evilrender23/Mod-Engine'
+REPO='https://github.com/oz-x/Mod-Engine'
 RAMA='master'
 if $LINUX; then DESTINO="${XDG_DATA_HOME:-$HOME/.local/share}/ModEngine"; else DESTINO="$HOME/Library/Application Support/ModEngine"; fi
 BIN="$HOME/.local/bin"

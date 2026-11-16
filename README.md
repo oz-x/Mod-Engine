@@ -21,13 +21,13 @@ un compilador de C, Git y, en Linux, ALSA), pregunta antes de instalarlo.
 **Linux y Mac:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/evilrender23/Mod-Engine/master/instalar.sh | bash
+curl -fsSL https://raw.githubusercontent.com/oz-x/Mod-Engine/master/instalar.sh | bash
 ```
 
 **Windows** (PowerShell):
 
 ```powershell
-irm https://raw.githubusercontent.com/evilrender23/Mod-Engine/master/instalar.ps1 | iex
+irm https://raw.githubusercontent.com/oz-x/Mod-Engine/master/instalar.ps1 | iex
 ```
 
 También desde un clon: `bash Mod-Engine/instalar.sh` o

@@ -1,11 +1,11 @@
 # Instala o actualiza Mod Engine en Windows compilándolo desde una rama del repositorio (master por defecto).
 # Es el equivalente de instalar.sh.
 #
-#   git clone https://github.com/evilrender23/Mod-Engine
+#   git clone https://github.com/oz-x/Mod-Engine
 #   powershell -ExecutionPolicy Bypass -File Mod-Engine\instalar.ps1 [-Repo URL|RUTA] [-Rama master] [-Destino CARPETA]
 #
 # O en una línea:
-#   irm https://raw.githubusercontent.com/evilrender23/Mod-Engine/master/instalar.ps1 | iex
+#   irm https://raw.githubusercontent.com/oz-x/Mod-Engine/master/instalar.ps1 | iex
 #
 # Desde un clon, sin -Repo, instala desde el origin de ese clon.
 #
@@ -23,7 +23,7 @@
 # por la versión nueva y lo vuelve a abrir.
 # Se guarda sin BOM a propósito: `irm | iex` no lo admite.
 param(
-    [string]$Repo = 'https://github.com/evilrender23/Mod-Engine',
+    [string]$Repo = 'https://github.com/oz-x/Mod-Engine',
     [string]$Rama = 'master',
     [string]$Destino = (Join-Path $env:LOCALAPPDATA 'ModEngine'),
     [switch]$Actualizar,
