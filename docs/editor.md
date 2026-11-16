@@ -448,7 +448,7 @@ marcar «He revisado la licencia…». Mod Engine no es abogado: ante la duda, l
 navegador (`/art-search-advanced` y `/content/<asset>`) y descarga de `/sites/default/files/`, lo
 que su `robots.txt` permite (nunca `/search/`, que prohíbe). Cada petición la lanza el usuario (buscar,
 abrir una ficha, las miniaturas de la página que ves, descargar): no rastrea nada en segundo plano.
-Se identifica con `User-Agent: ModEngine-Editor/<versión> (+https://github.com/evilrender23/Mod-Engine)`,
+Se identifica con `User-Agent: ModEngine-Editor/<versión> (+https://github.com/oz-x/Mod-Engine)`,
 hace **como mucho una petición cada 2 s** en una cola (miniaturas incluidas: una página tarda ~50 s
 en llenarse la primera vez) y guarda páginas, miniaturas y descargas en `~/.cache/modengine/store/`
 durante 24 h (sin conexión usa la copia vieja si la hay). Los errores (sin conexión, OGA pidiendo

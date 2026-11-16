@@ -29,7 +29,7 @@ pub const BIG_DOWNLOAD: u64 = 50 * 1024 * 1024;
 /// The User-Agent of every request (editor and `modengine store`): who we are and where to
 /// find us.
 pub fn user_agent() -> String {
-    format!("ModEngine-Editor/{} (+https://github.com/evilrender23/Mod-Engine)", env!("CARGO_PKG_VERSION"))
+    format!("ModEngine-Editor/{} (+https://github.com/oz-x/Mod-Engine)", env!("CARGO_PKG_VERSION"))
 }
 
 #[derive(Clone, Debug, PartialEq)]
